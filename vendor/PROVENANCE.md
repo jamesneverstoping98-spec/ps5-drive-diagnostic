@@ -1,0 +1,1 @@
+transport_cam.c is adapted from darkxex/SwanStationPS5 src/cdscsi.c at b995783c93b1e28560a23d67335e5ee2e257e2db. GPL-3.0-or-later. Original comments/attribution retained; SDL locking removed because this diagnostic is single-threaded; includes/logging renamed, command length and residual bounds validated. Other diagnostic sources are GPL-3.0-or-later. No emulator is bundled.
