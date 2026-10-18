@@ -1,0 +1,32 @@
+{
+  "stage": "development_source_snapshot",
+  "targets": [
+    "PS5 original",
+    "PS5 Slim"
+  ],
+  "ps5_binary_produced": false,
+  "installable_package_produced": false,
+  "ps5_sdk_build_tested": false,
+  "hardware_tested": false,
+  "games_tested": false,
+  "c_tests_executed": false,
+  "host_build_attempts": [
+    {
+      "compiler": "Zig 0.13.0",
+      "status": "failed",
+      "reason": "sandbox file access errors"
+    },
+    {
+      "compiler": "Zig 0.15.2",
+      "status": "failed",
+      "reason": "sandbox file access errors",
+      "log": "host-tests.json"
+    },
+    {
+      "compiler": "TinyCC 0.9.27",
+      "status": "could_not_launch",
+      "windows_error": 623
+    }
+  ],
+  "next_milestone": "Compile with PS5 SDK on Linux/WSL, then capture real drive detection and read logs."
+}

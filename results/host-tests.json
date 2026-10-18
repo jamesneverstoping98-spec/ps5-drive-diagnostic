@@ -1,0 +1,13 @@
+{
+  "scope": "compiled_C_host_mock_only",
+  "status": "build_failed",
+  "hardware_tested": false,
+  "ps5_build_tested": false,
+  "commands": [
+    {
+      "exit_code": 1,
+      "stderr_excerpt": "Host compilation failed with sandbox file-access errors (Unexpected/FileNotFound). Local paths removed for public release."
+    }
+  ],
+  "public_log_note": "Condensed from local compiler log; no executable or C test run completed."
+}
